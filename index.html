@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="title-header">
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. <span>No credit card required. </span> </p>
+      </div>
+      <div class="box-item">
+        <div class="pricing-wrapper">
+          <div class="pageview-value">
+            <div class="pageview"> <span id="pageView">100K</span> PAGEVIEWS</div>
+            <div class="value-wrapper2">
+              <h3>$<span class="value2"></span>.00 </h3><p>/ month</p>
+            </div>
+          </div>
+          <div class="slider-wrapper">
+            <input type="range" min="0" max="4" value="2" class="slider-bar">
+          </div>
+          <div class="value-wrapper">
+            <h3>$<span class="value"></span>.00 </h3><p>/ month</p>
+          </div>
+          <div class="discount">
+            <p>Monthly Billing</p>
+            <label class="switch">
+              <input type="checkbox" class="toggle-slider">
+              <span class="slider"></span>
+            </label>
+            <p>Yearly Billing</p>
+            <div class="twentyfive">
+              -25% <span>discount</span>
+            </div>
+          </div>
+        </div>
+        <div class="information-wrapper">
+          <div class="info-wrapper">
+            <div class="info-item">
+              <img src="/images/icon-check.svg" alt="chek">
+              Unlimited websites
+            </div>
+            <div class="info-item">
+              <img src="/images/icon-check.svg" alt="chek">
+              100% data ownership
+            </div>
+            <div class="info-item">
+              <img src="/images/icon-check.svg" alt="chek">
+              Email reports
+            </div>
+          </div>
+          
+          <div class="trial">Start my trial</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+<script src="app.js"></script>
+</body>
+</html>
